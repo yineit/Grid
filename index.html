@@ -1,0 +1,72 @@
+<!doctype html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<title>Desafío 2 Yineska Verde - Layout de ecommerce con Grid</title>
+	<!-- Estilos generales -->
+	<link href="assets/css/general.css" rel="stylesheet" type="text/css" />
+	<!-- Google Font -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+	<!-- Crear un layout con CSS Grid y su propiedad grid-template-areas -->
+	<div class="grid-container">
+		<navbar class="text-large "> Mi Ecommerce YV </navbar>
+		<menu>
+
+			<div class="barra-lateral">
+				<h3>Categorias</h3>
+				<p>Perfumes <span class="text-xsmall">(13)</span></p>
+				<p>Ropa <span class="text-xsmall">(21)</span></p>
+				<p>Accesorios <span class="text-xsmall">(41)</span></p>
+				<p>Zapatos <span class="text-xsmall">(10)</span></p>
+
+			</div>
+		</menu>
+		<main>
+			<!-- Crear una grilla de productos con CSS Grid. -->
+			<div class="grid-container-productos">
+				<div class="grid-item">
+					<div class="camisas">
+						<p><img src="assets/img/1.png"></p>
+						<p>Polera Blanca</p>
+						<p>16.000 CLP</p>
+						<p><button class="button button-primary">Comprar</button></p>
+					</div>
+				</div>
+				<div class="grid-item">
+					<div class="camisas">
+						<p><img src="assets/img/2.png"></p>
+						<p>Polera Girls Can</p>
+						<p>23.000 CLP</p>
+						<p><button class="button button-primary">Comprar</button></p>
+					</div>
+				</div>
+				<div class="grid-item">
+					<div class="camisas">
+						<p><img src="assets/img/3.png"></p>
+						<p>Polera Starter</p>
+						<p>22.000 CLP</p>
+						<p><button class="button button-primary">Comprar</button></p>
+					</div>
+				</div>
+				<div class="grid-item">
+					<div class="camisas">
+						<p><img src="assets/img/4.png"></p>
+						<p>Polera Dankley</p>
+						<p>18.000 CLP</p>
+						<p><button class="button button-primary">Comprar</button></p>
+					</div>
+				</div>
+			</div>
+		</main>
+		<footer> @miecommerceyv </footer>
+	</div>
+</body>
+
+</html>

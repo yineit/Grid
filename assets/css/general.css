@@ -1,0 +1,145 @@
+@charset "UTF-8";
+body {
+	color: #121533;
+	font-size: 16px;
+    font-family: 'Source Sans Pro', sans-serif;
+  }
+  
+  p {
+	  line-height: 1%;
+  }
+
+  /* Crear un layout con CSS Grid y su propiedad grid-template-areas */
+	    navbar{
+		grid-area: navbar;
+		background-color: #a5d2eb;
+		display:flex;
+		justify-content: center;
+		align-items: center;
+		height: 50px;
+		}
+		menu{
+		grid-area: menu;
+		background-color: #f5f5f5;
+		min-height: 100vh;
+		margin: 0px;
+		}
+		main{
+		grid-area: main;
+		background-color: #fff;
+		}
+		footer{
+		grid-area: footer;
+		background-color: #004673;
+		color: #fff;
+		
+		display:flex;
+		justify-content: center;
+		align-items: center;
+		justify-content: center;
+		}
+
+	/* Crear un layout con CSS Grid y su propiedad grid-template-areas */
+		.grid-container{
+			display: grid;
+			grid-template-areas:
+			"navbar navbar navbar"
+			"menu main main"
+			"footer footer footer";
+		}
+	/* Crear una grilla de productos con CSS Grid. */
+		.grid-container-productos {
+			display: grid;
+			grid-template-columns: auto auto auto; 
+			justify-items: center;
+			align-items: center;
+			column-gap: 20px;
+			
+			
+			}
+
+			/* Utilizar Flexbox para la distribución de elementos de la barra lateral.*/
+        .barra-lateral {
+           display: flex;
+           flex-direction: column;
+        }
+
+		/* Utilizar Flexbox para la construcción de las tarjetas de productos */
+        
+		.camisas {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+		}
+						
+			
+  .text-large {
+	  font-size: 36px;
+	  margin-left: 0;
+	  margin-right: 0;
+	}
+  
+  .text-medium {
+	  display: block;
+	  font-size: 16px;
+	  margin-left: 0;
+	  margin-right: 0;
+	 
+	}
+  .text-small {
+	  display: block;
+	  font-size: 14px;
+	  margin-left: 0;
+	  margin-right: 0;
+	  
+	  
+	}
+	.text-xsmall {
+	  
+	  font-size: 14px;
+	  margin-left: 0;
+	  margin-right: 0;
+	  color: #878787;
+	  
+	}
+  
+	.button {
+	  padding: 0 1rem;
+	  height: 2.125rem;
+	  text-align: center;
+	  vertical-align: middle;
+	  border: 1px #d9d9d9 solid;
+	  color: #FFF;
+	  cursor: pointer;
+	  display: inline-block;
+	  outline: none;
+	  margin: .15625rem;
+	  position: relative;
+	}
+	.button-primary {
+	  background-color: #000000;
+	  color: #FFF;
+	  border-radius: 40px;
+	}
+	.button-primary:hover {
+	  background: #222222;
+	}
+	.button-primary:focus {
+	  background: #1f1f1f;
+	  color: #FFF;
+	  box-shadow: none;
+   }
+  
+  
+
+
+	
+	
+
+				
+
+					
+					  
+					  
+					  
+					   
